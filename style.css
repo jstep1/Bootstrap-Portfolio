@@ -25,6 +25,7 @@ footer {
     text-align: center;
     width: 100%;
     height: 5px;
+    clear: both;
 }
 
 #fltmrg {
@@ -59,9 +60,6 @@ footer {
     height: 200px;
 }
 
-#cbutton {
-    align-self: auto;
-}
 
 #hdr {
     background-color: white;
@@ -107,4 +105,35 @@ footer {
 
   .mrgn {
       margin: 5%;
+  }
+
+#contact-form ul {
+    margin-bottom: 50px;
+    list-style-type: none;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+    color: #0066ff;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 200px;
   }
