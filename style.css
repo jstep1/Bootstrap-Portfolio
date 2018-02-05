@@ -125,6 +125,10 @@ footer,
     margin-bottom: 50px;
     list-style-type: none;
   }
+
+#pimg {
+    height: 180px;
+}
   
   #contact-form li {
     margin-bottom: 10px;
